@@ -33,7 +33,9 @@
   /* image1 */
   #image_one{
     background-image: url("./images/index.jpg");
-    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%; */
     padding: 20px;
   }
 
@@ -52,8 +54,6 @@
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
-    /* background-image: url("./images/images1.jpg"); */
     width: 100%;
     padding: 20px;
   }
